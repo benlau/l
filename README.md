@@ -4,12 +4,38 @@ Many modern apps support app links, allowing users to open specific content dire
 
 The IAnyLink project is designed to solve this problem. It can convert app links into regular web links (pretending an universal link)
 
-|  | App Link | Web Link |
-|---|---|---|
-| Joplin | joplin://x-callback-url/openNote?id=note_id | https://benlau.github.io/l/u/am9wbGluOi8veC1jYWxsYmFjay11cmwvb3Blbk5vdGU_aWQ9bm90ZV9pZA== |
-| Obsidian | obsidian://open?vault=your_vault&file=YOUR_NOTE | https://benlau.github.io/l/u/b2JzaWRpYW46Ly9vcGVuP3ZhdWx0PXlvdXJfdmF1bHQmZmlsZT1ZT1VSX05PVEU= |
-| VSCode | vscode://file/your-local-file-path | https://benlau.github.io/l/u/dnNjb2RlOi8vZmlsZS95b3VyLWxvY2FsLWZpbGUtcGF0aA== |
-| Mailto Link | mailto:test@example.com?subject=Testing out mailto! | https://benlau.github.io/l/u/bWFpbHRvOnRlc3RAZXhhbXBsZS5jb20_c3ViamVjdD1UZXN0aW5nIG91dCBtYWlsdG8h |
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>App Link</th>
+      <th>Web Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Joplin</td>
+      <td><a href="joplin://x-callback-url/openNote?id=note_id">joplin://x-callback-url/openNote?id=note_id</a></td>
+      <td><a href="https://benlau.github.io/l/u/am9wbGluOi8veC1jYWxsYmFjay11cmwvb3Blbk5vdGU_aWQ9bm90ZV9pZA==">https://benlau.github.io/l/u/am9wbGluOi8veC1jYWxsYmFj<br>ay11cmwvb3Blbk5vdGU_aWQ9bm90ZV9pZA==</a></td>
+    </tr>
+    <tr>
+      <td>Obsidian</td>
+      <td><a href="obsidian://open?vault=your_vault&file=YOUR_NOTE">obsidian://open?vault=your_vault&file=YOUR_NOTE</a></td>
+      <td><a href="https://benlau.github.io/l/u/b2JzaWRpYW46Ly9vcGVuP3ZhdWx0PXlvdXJfdmF1bHQmZmlsZT1ZT1VSX05PVEU=">https://benlau.github.io/l/u/b2JzaWRpYW46Ly9vcGVuP3ZhdWx<br>0PXlvdXJfdmF1bHQmZmlsZT1ZT1VSX05PVEU=</a></td>
+    </tr>
+    <tr>
+      <td>VSCode</td>
+      <td><a href="vscode://file/your-local-file-path">vscode://file/your-local-file-path</a></td>
+      <td><a href="https://benlau.github.io/l/u/dnNjb2RlOi8vZmlsZS95b3VyLWxvY2FsLWzpbGUtcGF0aA==">https://benlau.github.io/l/u/dnNjb2RlOi8vZmlsZS95<br>b3vy-LWxvY2FsLWzpbGUtcGF0aA==</a></td>
+    </tr>
+    <tr>
+      <td>Mailto Link</td>
+      <td><a href="mailto:test@example.com?subject=Testing out mailto!">mailto:test@example.com?subject=Testing out mailto!</a></td>
+      <td><a href="https://benlau.github.io/l/u/bWFpbHRvOnRlc3RAZXhhbXBsZS5jb20_c3ViamVjdD1UZXN0aW5nIG91dCBtYWlsdG8h">https://benlau.github.io/l/u/bWFpbHRvOnRlc3RAZXhhbXBsZS<br>5jb20_c3ViamVjdD1UZXN0aW5nIG91dCBtYWlsdG8h</a></td>
+    </tr>
+  </tbody>
+</table>
 
 *The service link: https://benlau.github.io/l*
 
