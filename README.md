@@ -44,3 +44,15 @@ The IAnyLink project is designed to solve this problem. It can convert app links
 1) Open a VSCode project in local drive from Joplin / Obsidian / Notion
 
 2) Add a mailto anchor to Google Docs to send an email to someone with subject `mailto:test@example.com?subject=Testing out mailto!`
+
+# Privacy Policy
+
+The developer will not collect or use your data (converted links).
+
+The site traffic information is
+
+- Not being sold to third parties
+- Not being used or transferred for purposes that are unrelated to the item's core functionality
+- Not being used or transferred to determine creditworthiness or for lending purposes
+
+
