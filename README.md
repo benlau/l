@@ -1,5 +1,7 @@
 # IAnyLink - Convert App Links to Universal Web Links
 
+**Remarks:** This is a repository for storing the GitHub page only. The real repository is [IAnyLink](https://github.com/benlau/ianylink).
+
 Many modern apps support app links, allowing users to open specific content directly. However, these links often have a problem: they are not supported by other apps, making it impossible to click and open them quickly. Cross-linking between applications is not as trivial as it may seem.
 
 The IAnyLink project is designed to solve this problem. It can convert app links into regular web links (pretending an universal link)
